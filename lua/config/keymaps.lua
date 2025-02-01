@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("n", "<leader>rc", "<cmd>CMakeRun<cr>")
+vim.keymap.set("n", "<leader>rr", '<cmd>TermExec cmd="rustc -o %:r % && %:r" <cr>')
