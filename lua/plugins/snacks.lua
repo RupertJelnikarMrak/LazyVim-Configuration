@@ -1,9 +1,5 @@
 return {
     {
-        "MaximilianLloyd/ascii.nvim",
-        depends = { "MunifTanjim/nui.nvim" },
-    },
-    {
         "snacks.nvim",
         opts = {
             dashboard = {
