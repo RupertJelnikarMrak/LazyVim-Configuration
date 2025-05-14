@@ -7,3 +7,5 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
 vim.g.lazyvim_prettier_needs_config = true
+
+vim.opt.clipboard = "" -- Disable sync between system clipboard and vim

@@ -4,3 +4,8 @@
 
 vim.keymap.set("n", "<leader>rc", "<cmd>CMakeRun<cr>")
 vim.keymap.set("n", "<leader>rr", '<cmd>TermExec cmd="rustc -o %:r % && %:r" <cr>')
+
+vim.keymap.set({ "n", "v" }, "<leader>y", '"+y', { desc = "Copy to system clipboard" })
+vim.keymap.set({ "n", "v" }, "<leader>Y", '"+Y', { desc = "Copy line to system clipboard" })
+
+vim.keymap.set("v", "<leader>p", '"_dP', { desc = "Paste without replacing register" })

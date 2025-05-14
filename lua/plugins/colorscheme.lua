@@ -16,7 +16,8 @@ return {
         lazy = true,
         name = "catppuccin",
         opts = {
-            transparent_background = true,
+            -- transparent_background = true,
+            style = "mocha",
             integrations = {
                 aerial = true,
                 alpha = true,
@@ -71,7 +72,7 @@ return {
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "tokyonight",
+            colorscheme = "catppuccin",
         },
     },
 }
